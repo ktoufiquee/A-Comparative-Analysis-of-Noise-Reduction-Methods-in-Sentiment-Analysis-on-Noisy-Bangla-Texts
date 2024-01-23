@@ -1,6 +1,6 @@
 # A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts
 
-This repository contains the code and datasets introduced in the paper titled **"A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts
+This repository contains the code and datasets used in the paper titled **"A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts
 "** accepted in *2024 The 9th Workshop on Noisy and User-generated Text (W-NUT) collocated with EACL 2024*.
 
 ## Table of Contents
