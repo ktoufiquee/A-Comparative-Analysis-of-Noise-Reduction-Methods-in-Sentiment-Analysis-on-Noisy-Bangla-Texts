@@ -5,8 +5,6 @@ This repository contains the code and datasets used in the paper titled **"A Com
 
 ## Table of Contents
 
-- [A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts](#A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts)
-  - [Table of Contents](#table-of-contents)
   - [Models](#models)
   - [Datasets](#datasets)
   - [Training & Evaluation](#training--evaluation)
