@@ -3,6 +3,8 @@
 This repository contains the code and datasets used in the paper titled **"A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts
 "** accepted in *2024 The 9th Workshop on Noisy and User-generated Text (W-NUT) collocated with EACL 2024*.
 
+**Read the preprint [here](https://www.arxiv.org/abs/2401.14360).**
+
 ## Table of Contents
 
   - [Models](#models)
@@ -74,5 +76,12 @@ Contents of this repository are restricted to non-commercial research purposes o
 ## Citation
 If you use any of the datasets, models or code modules, please cite the following paper:
 ```
-Coming soon.
+@misc{elahi2024comparative,
+      title={A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts}, 
+      author={Kazi Toufique Elahi and Tasnuva Binte Rahman and Shakil Shahriar and Samir Sarker and Md. Tanvir Rouf Shawon and G. M. Shahariar},
+      year={2024},
+      eprint={2401.14360},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
