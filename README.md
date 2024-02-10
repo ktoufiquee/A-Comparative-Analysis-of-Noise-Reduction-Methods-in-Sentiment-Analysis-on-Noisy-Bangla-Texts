@@ -1,9 +1,9 @@
 # A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bangla Texts
 
 This repository contains the code and datasets used in the paper titled **"A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bangla Texts
-"** accepted in *2024 The 9th Workshop on Noisy and User-generated Text (W-NUT) collocated with EACL 2024*.
+"** accepted in *The 9th Workshop on Noisy and User-generated Text (W-NUT) collocated with EACL 2024*.
 
-**Read the preprint [here](https://www.arxiv.org/abs/2401.14360).**
+**Paper Link: [https://www.arxiv.org/abs/2401.14360](https://www.arxiv.org/abs/2401.14360).**
 
 ## Table of Contents
 
@@ -11,28 +11,31 @@ This repository contains the code and datasets used in the paper titled **"A Com
   - [Datasets](#datasets)
   - [Training & Evaluation](#training--evaluation)
   - [Benchmarks](#benchmarks)
+  - [Future Research Directions](#future-research-directions)
   - [License](#license)
   - [Citation](#citation)
 
 ## Models
 
-The code used to train and test the models are available in this repository on the folder *NC-SentNoB Codes*.
+The code used to train and test the models are available in this repository under the folder *NC-SentNoB Codes*.
 
 
 ## Datasets
 
-The NC-SentNoB dataset is available at this repository on the folder *NC-SentNoB Dataset*.
+The NC-SentNoB dataset is available at this repository on the folder ***NC-SentNoB Dataset***. <br>
+Also available on:
+[[HuggingFace]](https://huggingface.co/datasets/ktoufiquee/NC-SentNoB) |
+[[Paperswithcode]](https://paperswithcode.com/dataset/nc-sentnob) |
+[[Kaggle]](https://www.kaggle.com/datasets/kazitoufiqueelahi/nc-sentnob)
+
 SentNoB dataset with Back translation applied is also available on the folder *Back-Translated Data*.
 The 1000 ground truths used to evaluate denoising methods are available on the file *1000 Ground Truth.xlsx*
 
-The SentNoB dataset is available at this [link](https://github.com/KhondokerIslam/SentNoB).
-
-
 ## Training & Evaluation
 
-We used pretrained transformer based models for Sentiment Classification and SVM, BiLSTM, BanglaBERT for Noise Identification.
+We used seven pretrained transformer models for Sentiment Analysis and SVM, BiLSTM, BanglaBERT for Noise Identification.
 
-## Results
+## Benchmarks
  
 * Noise Identification
 
@@ -42,31 +45,38 @@ We used pretrained transformer based models for Sentiment Classification and SVM
 |SVM (W)          |  0.64      | 0.38    | 0.48      |
 |SVM (C+W)        |  0.75      | 0.45    | 0.56      |
 |Bi-LSTM          |  0.36      | 0.18    | 0.24      |
-|Bangla-BERT-base |  0.73      | 0.54    | 0.62      |
+|Bangla-BERT-base |  0.73      | 0.54    | **0.62**  |
 
 * Sentiment Analysis on Noisy Text
 
 | Model | Precision | Recall  | F1-Score  |
 |-------|-----------|---------|-----------|
 |Bangla-BERT-Base     | 0.72  | 0.72  | 0.72  |
-|BanglaBERT           | 0.75  | 0.75  | 0.75  |
+|BanglaBERT           | 0.75  | 0.75  | **0.75** |
 |BanglaBERT Large     | 0.74  | 0.74  | 0.74  |
 |BanglaBERT Generator | 0.72  | 0.72  | 0.72  |
 |sahajBERT            | 0.72  | 0.72  | 0.72  |
 |Bangla-Electra       | 0.68  | 0.68  | 0.68  |
 |MuRIL                | 0.73  | 0.73  | 0.73  |
 
-* Sentiment Analysis on Denoised Text (Using Google Translate)
+* Sentiment Analysis after Noise Reduction
 
 | Model | Precision | Recall  | F1-Score  |
 |-------|-----------|---------|-----------|
 |Bangla-BERT-Base     | 0.69  | 0.69  | 0.69  |
 |BanglaBERT           | 0.72  | 0.72  | 0.72  |
-|BanglaBERT Large     | 0.73  | 0.73  | 0.73  |
+|BanglaBERT Large     | 0.73  | 0.73  | **0.73** |
 |BanglaBERT Generator | 0.70  | 0.70  | 0.70  |
 |sahajBERT            | 0.70  | 0.70  | 0.70  |
 |Bangla-Electra       | 0.66  | 0.66  | 0.66  |
 |MuRIL                | 0.71  | 0.71  | 0.71  |
+
+## Future Research Directions
+1. Develop robust noise reduction models for Bangla texts.
+2. Investigate and develop noise specific reduction techniques.
+3. Leverage LLMs for noise reduction.
+4. Compare performance of Sentiment Analysis using LLMs in both settings: with and without noise.
+5. Implement character-level NMT models for back-translation to reduce noise.
 
 ## License
 Contents of this repository are restricted to non-commercial research purposes only under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
