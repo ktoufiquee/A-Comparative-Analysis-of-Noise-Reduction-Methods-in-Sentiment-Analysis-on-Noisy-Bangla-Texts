@@ -3,7 +3,9 @@
 This repository contains the code and datasets used in the paper titled **"A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bangla Texts
 "** accepted in *The 9th Workshop on Noisy and User-generated Text (W-NUT) collocated with EACL 2024*.
 
-**Paper Link: [https://www.arxiv.org/abs/2401.14360](https://www.arxiv.org/abs/2401.14360).**
+**Paper Link: [https://www.arxiv.org/abs/2401.14360](https://www.arxiv.org/abs/2401.14360)**
+
+**ACL Anthology Link: [https://aclanthology.org/2024.wnut-1.5](https://aclanthology.org/2024.wnut-1.5)**
 
 ## Table of Contents
 
